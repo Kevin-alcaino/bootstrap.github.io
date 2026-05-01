@@ -1,72 +1,80 @@
- <!doctype html>
-<html lang="en">
-  <head>
+<!doctype html>
+<html lang="es">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rider life</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
+    <!-- Asegúrate que el nombre coincida: si es style.css, quita 'assets/css/' -->
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
     <header>
-      <h1>Rider life</h1>
+        <h1 class="text-white p-3 m-0">Rider life</h1>
     </header>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">Inicio</a>
-       <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Productos</a>
-        </li> 
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Eventos</a>
-        </li> 
-      </ul>
-    </div>
-  </div>
-</nav>
-<main>
-  <!--INICIO-->
-  <div class="inicio">
-<img src="https://dirtit.pl/wp-content/uploads/2024/07/Leogang-Natalia-i-Piotrek_2.jpg" class="img-fluid" alt="...">
-  <p class=".text-light">Rider life ⚡️ Especialistas en Gravedad
-🚀 DH • Enduro • Freeride
-🚲 Las mejores marcas en bicis de doble suspensión.
-🛡️ Cascos, ropa y protecciones para que nada te detenga.
-🔧 Taller Pro & Herramientas de precisión.
-📍 La capilla 69/ Colina.</p>
-</main>
-<!--PRODUCTOS-->
-</div>
-  <div class="container text-center">
-      <h2>Bicicletas Enduro.</h2>
-  <div class="row">
-    <div class="col">
-     <img src="https://d36myxw5t262l6.cloudfront.net/wp-content/uploads/2022/01/13121627/Flow_Ignition_Justin_1800px-7283.jpg" class="img-thumbnail" alt="...">
-      <p>La nueva GT Force versión de un clásico atemporal . En nuestra prueba comparativa de las "Mejores Bicicletas de Enduro de 2025"<p>
-    </div>
-    <div class="col">
-      <img src="https://enduro-mtb.com/wp-content/uploads/2026/01/Santa_Cruz_Bullit_Best_Enduro_Bike_2026_Test_WEB-4716.jpg" class="img-thumbnail" alt="...">
-      <p>Bullit x0 bicicleta de trail/all-mountain de cuarta generación con cuadro de carbono C, 150 mm de recorrido trasero y 160 mm delantero.</p>
-    </div>
-    <div class="col">
-    
-     <img src="https://cdn.todomountainbike.net/images/articles/2020/commencal-clash-2021.jpg" class="img-thumbnail" alt="...">
-    <p>La CLASH está hecha para desafiar los límites.La cinemática es regulable para adaptar el comportamiento y el recorrido en función del terreno.</p>
-    </div>
-  </div>
-</div>
-<!--CONTACTO-->
-  <div class="mb-3">
-  
-  <label for="exampleFormControlInput1" class="form-label">Nombre.</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jhonny Bravo">
-  <label for="exampleFormControlInput1" class="form-label">Correo electronico.</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-  </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Inicio</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Eventos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="inicio text-center">
+            <img src="https://dirtit.pl/wp-content/uploads/2024/07/Leogang-Natalia-i-Piotrek_2.jpg" class="img-fluid hero-img" alt="Rider Life Hero">
+            <div class="p-4">
+                <p class="text-dark">
+                    Rider life ⚡️ Especialistas en Gravedad<br>
+                    🚀 DH • Enduro • Freeride<br>
+                    🚲 Las mejores marcas en bicis de doble suspensión.<br>
+                    🛡️ Cascos, ropa y protecciones para que nada te detenga.<br>
+                    🔧 Taller Pro & Herramientas de precisión.<br>
+                    📍 La capilla 69/ Colina.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <section class="container text-center my-5">
+        <h2>Bicicletas Enduro.</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <img src="https://d36myxw5t262l6.cloudfront.net/wp-content/uploads/2022/01/13121627/Flow_Ignition_Justin_1800px-7283.jpg" class="img-thumbnail" alt="GT Force">
+                <p class="mt-2">La nueva GT Force versión de un clásico atemporal.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://enduro-mtb.com/wp-content/uploads/2026/01/Santa_Cruz_Bullit_Best_Enduro_Bike_2026_Test_WEB-4716.jpg" class="img-thumbnail" alt="Santa Cruz Bullit">
+                <p class="mt-2">Santa Cruz Bullit: bicicleta de trail/all-mountain de cuarta generación.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://cdn.todomountainbike.net/images/articles/2020/commencal-clash-2021.jpg" class="img-thumbnail" alt="Commencal Clash">
+                <p class="mt-2">La CLASH está hecha para desafiar los límites con cinemática regulable.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-3 contact-section text-white">
+        <div class="container">
+            <label for="nombre" class="form-label">Nombre.</label>
+            <input type="text" class="form-control mb-3" id="nombre" placeholder="Jhonny Bravo">
+            <label for="email" class="form-label">Correo electrónico.</label>
+            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
